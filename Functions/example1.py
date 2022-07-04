@@ -35,3 +35,12 @@ def Student_Details():
     clas = int(input("Enter student class: "))
     school_name = input("Enter your school name: ")
     print(f"Your name is {name}\nYour age is {age}\nStudent is in class{clas}\nYour Company Name is {school_name}")
+
+
+
+
+def Vehical_Info():
+    make = input("Vehicle make : ")
+    model = input("Vehicle model : ")
+    year = int(input("Vehicle year : "))
+    print(f"Vehicle Make is{make}\nVehicle Model is {model}\nVehicle Launch Year is {year}")
