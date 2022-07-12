@@ -1,5 +1,5 @@
-from audioop import add
 
+# non-parametrize function
 
 def area_of_triangle():
     a = int(input("Enter the length of side A:"))
@@ -8,6 +8,8 @@ def area_of_triangle():
     s = (a + b + c) / 2
     area = (s * (s -a) *(s-b) * (s-c) ** 0.5)
     print("This area of triangle is: ", area)
+
+area_of_triangle()
 
 
 def area_of_circle():
@@ -43,18 +45,7 @@ def menu():
         print("Invalid Choice")
         menu()
 
-# if __name__ == "__main__":
-#     menu()
+# # if __name__ == "__main__":
+# #     menu()
 
 
-def add_name(name):
-    '''after function name (name) is called parameter'''
-    print(f"Hello Mr. {name}")
-# add_name('Amit')
-
-
-def add2_num(x,y):
-    c = x + y
-    print(c)
-
-# add2_num(2,5)
