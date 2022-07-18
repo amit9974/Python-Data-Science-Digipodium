@@ -16,9 +16,11 @@ class Account:
         if amount > 0:
             amount -= amount
             print(f"{self.amount} debit on {datetime.datetime.now()}")
+    
 
     def show_balance(self):
         print(f"{self.name} account balance is {self.amount}")
 
-Amit = Account('Amit',100)
+Amit = Account('Amit',20)
 Amit.show_balance()
+Amit.deposite(20)
